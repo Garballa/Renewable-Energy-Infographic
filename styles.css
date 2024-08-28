@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body and Font Styling*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Header Styling */
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Section Styling */
+
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #27ae60;
+}
+section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Chart Containers*/
+.chart-container {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+/* Interactive Map */
+.interactive-map {
+  height: 500px;
+  width: 100%;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+}
+/* Expandable Content */
+.expandable-content {
+  font-size: 1rem;
+  margin: 0;
+}
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+footer p {
+  font-size: 0.9rem;
+}
+footer a {
+  color: #27ae60;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+/* Media Queries for Responsiveness*/
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section h2 {
+    font-size: 1.5rem;
+  }
+  .chart-container,
+  .interactive-map {
+    height: 300px;
+  }
+}
